@@ -44,6 +44,10 @@ img {
   box-sizing: border-box;
 }
 
+.text-shadow {
+  text-shadow: 0px 0px 35px #fff;
+}
+
 .top {
   top: 10px;
 }

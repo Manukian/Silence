@@ -13,8 +13,10 @@ window.addEventListener("scroll", (e) => {
   document.querySelectorAll(".blur").forEach((block) => {
     // block.style.filter = "blur(" + window.scrollY / 100 + "px)";
     block.style.filter = "blur(10px)";
+    block.classList.add("text-shadow");
     setTimeout(() => {
       block.style.filter = "blur(0px)";
-    }, 800);
+      block.classList.remove("text-shadow");
+    }, 100);
   });
 });
