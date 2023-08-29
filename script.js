@@ -17,6 +17,6 @@ window.addEventListener("scroll", (e) => {
     setTimeout(() => {
       block.style.filter = "blur(0px)";
       block.classList.remove("text-shadow");
-    }, 100);
+    }, 800);
   });
 });
