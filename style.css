@@ -107,8 +107,8 @@ img {
 
 @media (max-width: 1024px) {
   body {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 17px;
+    line-height: 23px;
   }
   .grid {
     grid-template-columns: 1fr;
@@ -126,8 +126,8 @@ img {
   .one-third {
     width: auto;
     margin: 5px 15px 15px;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 10px;
+    line-height: 13px;
   }
   .one-third-absolute {
     margin-top: 15px;
