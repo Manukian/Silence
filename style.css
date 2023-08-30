@@ -39,7 +39,7 @@ body {
 }
 
 img {
-  height: 100svh;
+  height: 100lvh;
   width: 100%;
   object-fit: cover;
 }
@@ -88,6 +88,7 @@ img {
 .sticky {
   position: sticky;
   top: 0;
+  height: 100svh;
 }
 
 .one-third {
