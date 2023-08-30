@@ -125,7 +125,7 @@ img {
   }
   .one-third {
     width: auto;
-    margin: 5px 15px 15px;
+    margin: 5px 15px 0px;
     font-size: 10px;
     line-height: 13px;
   }
