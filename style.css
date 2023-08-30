@@ -132,4 +132,8 @@ img {
   .one-third-absolute {
     margin-top: 15px;
   }
+  .bottom-right {
+    height: 0;
+    padding-top: 0;
+  }
 }
