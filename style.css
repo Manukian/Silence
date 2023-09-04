@@ -50,6 +50,10 @@ img {
   object-fit: cover;
 }
 
+img:first-child {
+  height: 100svh;
+}
+
 .absolute {
   position: fixed;
   display: flex;
@@ -208,7 +212,7 @@ img {
 }
 
 .index_2 .padding-new {
-  padding: 54px 48px;
+  padding: 48px;
 }
 
 .zero-height {
