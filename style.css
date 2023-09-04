@@ -22,6 +22,11 @@ body {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .blur {
   transition: 0.4s;
 }
@@ -36,6 +41,7 @@ body {
 .flex {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 img {
@@ -60,7 +66,7 @@ img {
 }
 
 .top {
-  top: 10px;
+  top: 15px;
 }
 
 .bottom {
@@ -108,8 +114,8 @@ img {
 
 @media (max-width: 1024px) {
   body {
-    font-size: 17px;
-    line-height: 23px;
+    font-size: 20px;
+    line-height: 25px;
   }
   .grid {
     grid-template-columns: 1fr;
@@ -137,4 +143,93 @@ img {
     height: 0;
     padding-top: 0;
   }
+}
+
+/* Index 1 */
+
+.index_1 {
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.padding-new {
+  padding: 30px 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.absolute-bottom-new {
+  position: sticky;
+  bottom: 0;
+}
+
+.product-about {
+  font-size: 16px;
+  line-height: 1.3;
+  text-transform: none;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.price {
+  position: absolute;
+  top: 100%;
+}
+
+.model-button {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Index 2 */
+
+.index_2 {
+  font-size: 12px;
+  line-height: 16px;
+  color: #b6ada8;
+}
+
+.white-blur {
+  position: relative;
+}
+
+.white-blur::before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  right: -18px;
+  bottom: -24px;
+  left: -18px;
+  background-color: white;
+  filter: blur(10px);
+  z-index: -1;
+  border-radius: 80px;
+}
+
+.index_2 .padding-new {
+  padding: 54px 48px;
+}
+
+.zero-height {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product-info-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 18px;
+  padding: 30px 20px;
+}
+
+.product-info-list > div:nth-child(odd) {
+  opacity: 0.5;
 }
