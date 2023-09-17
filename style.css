@@ -15,10 +15,9 @@ html {
 
 body {
   margin: 0;
-  font-size: 60px;
   font-family: "Silence";
-  font-size: 45px;
-  line-height: 50px;
+  font-size: 25px;
+  line-height: 30px;
   position: relative;
 }
 
